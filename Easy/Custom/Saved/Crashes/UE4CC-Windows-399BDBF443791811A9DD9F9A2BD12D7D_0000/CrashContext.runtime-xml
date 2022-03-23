@@ -1,0 +1,1054 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FGenericCrashContext>
+<RuntimeProperties>
+<CrashVersion>3</CrashVersion>
+<CrashGUID>UE4CC-Windows-399BDBF443791811A9DD9F9A2BD12D7D_0000</CrashGUID>
+<ProcessId>9936</ProcessId>
+<IsInternalBuild>false</IsInternalBuild>
+<IsPerforceBuild>false</IsPerforceBuild>
+<IsSourceDistribution>false</IsSourceDistribution>
+<IsEnsure>false</IsEnsure>
+<IsAssert>true</IsAssert>
+<CrashType>GPUCrash</CrashType>
+<SecondsSinceStart>254</SecondsSinceStart>
+<GameName>UE4-Custom</GameName>
+<ExecutableName>Blocks</ExecutableName>
+<BuildConfiguration>Development</BuildConfiguration>
+<GameSessionID></GameSessionID>
+<PlatformName>WindowsNoEditor</PlatformName>
+<PlatformNameIni>Windows</PlatformNameIni>
+<EngineMode>Game</EngineMode>
+<EngineModeEx>Unset</EngineModeEx>
+<DeploymentName></DeploymentName>
+<EngineVersion>4.18.3-3832480+++UE4+Release-4.18</EngineVersion>
+<CommandLine>Custom </CommandLine>
+<LanguageLCID>2057</LanguageLCID>
+<AppDefaultLocale>en-IN</AppDefaultLocale>
+<BuildVersion>++UE4+Release-4.18-CL-3832480</BuildVersion>
+<IsUE4Release>false</IsUE4Release>
+<UserName></UserName>
+<BaseDir>H:/Easy/Custom/Binaries/Win64/</BaseDir>
+<RootDir>H:/Easy/</RootDir>
+<MachineId>5AF55DA04A5428847034ACA3BE41A09E</MachineId>
+<LoginId>5af55da04a5428847034aca3be41a09e</LoginId>
+<EpicAccountId>554520c0bbdb4b65bcddeb9111b143d4</EpicAccountId>
+<CallStack></CallStack>
+<SourceContext></SourceContext>
+<UserDescription></UserDescription>
+<UserActivityHint></UserActivityHint>
+<ErrorMessage>Fatal error: [File:D:\Build\++UE4+Release-4.18+Compile\Sync\Engine\Source\Runtime\Windows\D3D11RHI\Private\D3D11Util.cpp] [Line: 182] 
+Unreal Engine is exiting due to D3D device being lost. (Error: 0x887A0006 - &apos;HUNG&apos;)
+</ErrorMessage>
+<CrashDumpMode>0</CrashDumpMode>
+<CrashReporterMessage></CrashReporterMessage>
+<Misc.NumberOfCores>6</Misc.NumberOfCores>
+<Misc.NumberOfCoresIncludingHyperthreads>12</Misc.NumberOfCoresIncludingHyperthreads>
+<Misc.Is64bitOperatingSystem>1</Misc.Is64bitOperatingSystem>
+<Misc.CPUVendor>GenuineIntel</Misc.CPUVendor>
+<Misc.CPUBrand>Intel(R) Core(TM) i7-9750H CPU @ 2.60GHz</Misc.CPUBrand>
+<Misc.PrimaryGPUBrand>NVIDIA GeForce GTX 1650</Misc.PrimaryGPUBrand>
+<Misc.OSVersionMajor>Windows 10</Misc.OSVersionMajor>
+<Misc.OSVersionMinor></Misc.OSVersionMinor>
+<MemoryStats.TotalPhysical>17095184384</MemoryStats.TotalPhysical>
+<MemoryStats.TotalVirtual>140737488224256</MemoryStats.TotalVirtual>
+<MemoryStats.PageSize>4096</MemoryStats.PageSize>
+<MemoryStats.TotalPhysicalGB>16</MemoryStats.TotalPhysicalGB>
+<MemoryStats.AvailablePhysical>8978030592</MemoryStats.AvailablePhysical>
+<MemoryStats.AvailableVirtual>140731691134976</MemoryStats.AvailableVirtual>
+<MemoryStats.UsedPhysical>320630784</MemoryStats.UsedPhysical>
+<MemoryStats.PeakUsedPhysical>351342592</MemoryStats.PeakUsedPhysical>
+<MemoryStats.UsedVirtual>837193728</MemoryStats.UsedVirtual>
+<MemoryStats.PeakUsedVirtual>1322213376</MemoryStats.PeakUsedVirtual>
+<MemoryStats.bIsOOM>0</MemoryStats.bIsOOM>
+<MemoryStats.OOMAllocationSize>0</MemoryStats.OOMAllocationSize>
+<MemoryStats.OOMAllocationAlignment>0</MemoryStats.OOMAllocationAlignment>
+</RuntimeProperties>
+<PlatformProperties>
+<PlatformIsRunningWindows>1</PlatformIsRunningWindows>
+<PlatformCallbackResult>0</PlatformCallbackResult>
+</PlatformProperties>
+<EnabledPlugins>
+<Plugin>{
+	&quot;FileVersion&quot;: 3,
+	&quot;Version&quot;: 0,
+	&quot;VersionName&quot;: &quot;1.2.0&quot;,
+	&quot;FriendlyName&quot;: &quot;AirSim&quot;,
+	&quot;Description&quot;: &quot;AirSim - Autonomous Aerial Vehicles Simulator Plugin&quot;,
+	&quot;Category&quot;: &quot;Science&quot;,
+	&quot;CreatedBy&quot;: &quot;Shital Shah&quot;,
+	&quot;CreatedByURL&quot;: &quot;http://github.com/Microsoft/AirSim&quot;,
+	&quot;DocsURL&quot;: &quot;https://github.com/Microsoft/AirSim/blob/master/README.md&quot;,
+	&quot;MarketplaceURL&quot;: &quot;&quot;,
+	&quot;SupportURL&quot;: &quot;https://github.com/Microsoft/AirSim/issues&quot;,
+	&quot;EnabledByDefault&quot;: true,
+	&quot;CanContainContent&quot;: true,
+	&quot;IsBetaVersion&quot;: true,
+	&quot;Installed&quot;: true,
+	&quot;Modules&quot;: [
+		{
+			&quot;Name&quot;: &quot;AirSim&quot;,
+			&quot;Type&quot;: &quot;Runtime&quot;,
+			&quot;LoadingPhase&quot;: &quot;PreDefault&quot;
+		}
+	],
+	&quot;Plugins&quot;: [
+		{
+			&quot;Name&quot;: &quot;PhysXVehicles&quot;,
+			&quot;Enabled&quot;: true
+		}
+	]
+}</Plugin>
+<Plugin>{
+	&quot;FileVersion&quot;: 3,
+	&quot;Version&quot;: 1,
+	&quot;VersionName&quot;: &quot;1.0&quot;,
+	&quot;FriendlyName&quot;: &quot;PhysX Vehicles&quot;,
+	&quot;Description&quot;: &quot;PhysX Vehicle Integration&quot;,
+	&quot;Category&quot;: &quot;Physics&quot;,
+	&quot;CreatedBy&quot;: &quot;Epic Games, Inc.&quot;,
+	&quot;CreatedByURL&quot;: &quot;http://epicgames.com&quot;,
+	&quot;DocsURL&quot;: &quot;&quot;,
+	&quot;MarketplaceURL&quot;: &quot;&quot;,
+	&quot;SupportURL&quot;: &quot;&quot;,
+	&quot;EnabledByDefault&quot;: true,
+	&quot;CanContainContent&quot;: false,
+	&quot;IsBetaVersion&quot;: false,
+	&quot;Installed&quot;: false,
+	&quot;Modules&quot;: [
+		{
+			&quot;Name&quot;: &quot;PhysXVehicles&quot;,
+			&quot;Type&quot;: &quot;Runtime&quot;,
+			&quot;LoadingPhase&quot;: &quot;PreDefault&quot;
+		},
+		{
+			&quot;Name&quot;: &quot;PhysXVehiclesEditor&quot;,
+			&quot;Type&quot;: &quot;Developer&quot;,
+			&quot;LoadingPhase&quot;: &quot;PreDefault&quot;
+		}
+	]
+}</Plugin>
+<Plugin>{
+	&quot;FileVersion&quot;: 3,
+	&quot;Version&quot;: 1,
+	&quot;VersionName&quot;: &quot;1.0&quot;,
+	&quot;FriendlyName&quot;: &quot;Paper2D&quot;,
+	&quot;Description&quot;: &quot;Paper2D adds tools and assets to help create 2D games including animated sprite assets, tilesets (experimental), 2D level editing tools, and more.&quot;,
+	&quot;Category&quot;: &quot;2D&quot;,
+	&quot;CreatedBy&quot;: &quot;Epic Games, Inc.&quot;,
+	&quot;CreatedByURL&quot;: &quot;http://epicgames.com&quot;,
+	&quot;DocsURL&quot;: &quot;&quot;,
+	&quot;MarketplaceURL&quot;: &quot;&quot;,
+	&quot;SupportURL&quot;: &quot;&quot;,
+	&quot;EnabledByDefault&quot;: true,
+	&quot;CanContainContent&quot;: true,
+	&quot;IsBetaVersion&quot;: false,
+	&quot;Installed&quot;: false,
+	&quot;Modules&quot;: [
+		{
+			&quot;Name&quot;: &quot;Paper2D&quot;,
+			&quot;Type&quot;: &quot;Runtime&quot;,
+			&quot;LoadingPhase&quot;: &quot;PreDefault&quot;
+		},
+		{
+			&quot;Name&quot;: &quot;Paper2DEditor&quot;,
+			&quot;Type&quot;: &quot;Editor&quot;,
+			&quot;LoadingPhase&quot;: &quot;Default&quot;
+		},
+		{
+			&quot;Name&quot;: &quot;PaperSpriteSheetImporter&quot;,
+			&quot;Type&quot;: &quot;Editor&quot;,
+			&quot;LoadingPhase&quot;: &quot;Default&quot;
+		},
+		{
+			&quot;Name&quot;: &quot;PaperTiledImporter&quot;,
+			&quot;Type&quot;: &quot;Editor&quot;,
+			&quot;LoadingPhase&quot;: &quot;Default&quot;
+		},
+		{
+			&quot;Name&quot;: &quot;SmartSnapping&quot;,
+			&quot;Type&quot;: &quot;Editor&quot;,
+			&quot;LoadingPhase&quot;: &quot;PostEngineInit&quot;
+		}
+	]
+}</Plugin>
+<Plugin>{
+	&quot;FileVersion&quot;: 3,
+	&quot;Version&quot;: 1,
+	&quot;VersionName&quot;: &quot;1.0&quot;,
+	&quot;FriendlyName&quot;: &quot;LightPropagationVolume&quot;,
+	&quot;Description&quot;: &quot;The plugin encapsulates a small part of the LightPropagationVolume feature, the LightPropagationVolumeBlendable asset (for more info: look for Blendables in the documentation). This plugin is also an example on how to make a Blendable asset outside of the engine&quot;,
+	&quot;Category&quot;: &quot;Rendering&quot;,
+	&quot;CreatedBy&quot;: &quot;Epic Games, Inc.&quot;,
+	&quot;CreatedByURL&quot;: &quot;http://epicgames.com&quot;,
+	&quot;DocsURL&quot;: &quot;&quot;,
+	&quot;MarketplaceURL&quot;: &quot;&quot;,
+	&quot;SupportURL&quot;: &quot;&quot;,
+	&quot;EnabledByDefault&quot;: true,
+	&quot;CanContainContent&quot;: false,
+	&quot;IsBetaVersion&quot;: false,
+	&quot;Installed&quot;: false,
+	&quot;Modules&quot;: [
+		{
+			&quot;Name&quot;: &quot;LightPropagationVolumeRuntime&quot;,
+			&quot;Type&quot;: &quot;Runtime&quot;,
+			&quot;LoadingPhase&quot;: &quot;PreDefault&quot;
+		},
+		{
+			&quot;Name&quot;: &quot;LightPropagationVolumeEditor&quot;,
+			&quot;Type&quot;: &quot;Editor&quot;,
+			&quot;LoadingPhase&quot;: &quot;Default&quot;
+		}
+	]
+}</Plugin>
+<Plugin>{
+	&quot;FileVersion&quot;: 3,
+	&quot;Version&quot;: 1,
+	&quot;VersionName&quot;: &quot;1.0&quot;,
+	&quot;FriendlyName&quot;: &quot;Facial Animation Bulk Importer&quot;,
+	&quot;Description&quot;: &quot;Bulk importer for facial animation curves and audio. Imports facial animation curve tables (from FBX) into sound waves.&quot;,
+	&quot;Category&quot;: &quot;Editor&quot;,
+	&quot;CreatedBy&quot;: &quot;Epic Games, Inc.&quot;,
+	&quot;CreatedByURL&quot;: &quot;http://epicgames.com&quot;,
+	&quot;DocsURL&quot;: &quot;&quot;,
+	&quot;MarketplaceURL&quot;: &quot;&quot;,
+	&quot;SupportURL&quot;: &quot;&quot;,
+	&quot;EnabledByDefault&quot;: true,
+	&quot;CanContainContent&quot;: false,
+	&quot;IsBetaVersion&quot;: true,
+	&quot;Installed&quot;: false,
+	&quot;Modules&quot;: [
+		{
+			&quot;Name&quot;: &quot;FacialAnimation&quot;,
+			&quot;Type&quot;: &quot;Runtime&quot;,
+			&quot;LoadingPhase&quot;: &quot;PreDefault&quot;
+		},
+		{
+			&quot;Name&quot;: &quot;FacialAnimationEditor&quot;,
+			&quot;Type&quot;: &quot;Editor&quot;,
+			&quot;LoadingPhase&quot;: &quot;PreDefault&quot;
+		}
+	]
+}</Plugin>
+<Plugin>{
+	&quot;FileVersion&quot;: 3,
+	&quot;Version&quot;: 1,
+	&quot;VersionName&quot;: &quot;0.1&quot;,
+	&quot;FriendlyName&quot;: &quot;CharacterAI&quot;,
+	&quot;Description&quot;: &quot;Adds code and assets related to implementing AI in a character-based project.&quot;,
+	&quot;Category&quot;: &quot;Gameplay&quot;,
+	&quot;CreatedBy&quot;: &quot;Epic Games, Inc.&quot;,
+	&quot;CreatedByURL&quot;: &quot;http://epicgames.com&quot;,
+	&quot;DocsURL&quot;: &quot;&quot;,
+	&quot;MarketplaceURL&quot;: &quot;&quot;,
+	&quot;SupportURL&quot;: &quot;&quot;,
+	&quot;EnabledByDefault&quot;: true,
+	&quot;CanContainContent&quot;: false,
+	&quot;IsBetaVersion&quot;: true,
+	&quot;Installed&quot;: false,
+	&quot;Modules&quot;: [
+		{
+			&quot;Name&quot;: &quot;CharacterAI&quot;,
+			&quot;Type&quot;: &quot;Runtime&quot;,
+			&quot;LoadingPhase&quot;: &quot;PostEngineInit&quot;
+		}
+	]
+}</Plugin>
+<Plugin>{
+	&quot;FileVersion&quot;: 3,
+	&quot;Version&quot;: 1,
+	&quot;VersionName&quot;: &quot;1.0&quot;,
+	&quot;FriendlyName&quot;: &quot;Experimental HTML5 Networking Plugin&quot;,
+	&quot;Description&quot;: &quot;HTML5 Networking&quot;,
+	&quot;Category&quot;: &quot;Misc&quot;,
+	&quot;CreatedBy&quot;: &quot;Epic Games, Inc.&quot;,
+	&quot;CreatedByURL&quot;: &quot;http://epicgames.com&quot;,
+	&quot;DocsURL&quot;: &quot;&quot;,
+	&quot;MarketplaceURL&quot;: &quot;&quot;,
+	&quot;SupportURL&quot;: &quot;&quot;,
+	&quot;EnabledByDefault&quot;: true,
+	&quot;CanContainContent&quot;: false,
+	&quot;IsBetaVersion&quot;: false,
+	&quot;Installed&quot;: false,
+	&quot;Modules&quot;: [
+		{
+			&quot;Name&quot;: &quot;HTML5Networking&quot;,
+			&quot;Type&quot;: &quot;Runtime&quot;,
+			&quot;LoadingPhase&quot;: &quot;Default&quot;,
+			&quot;WhitelistPlatforms&quot;: [
+				&quot;Mac&quot;,
+				&quot;Win32&quot;,
+				&quot;Win64&quot;,
+				&quot;HTML5&quot;
+			]
+		}
+	]
+}</Plugin>
+<Plugin>{
+	&quot;FileVersion&quot;: 3,
+	&quot;Version&quot;: 2,
+	&quot;VersionName&quot;: &quot;2.0&quot;,
+	&quot;FriendlyName&quot;: &quot;AVF Media Player&quot;,
+	&quot;Description&quot;: &quot;Implements a media player using Apple AV Foundation.&quot;,
+	&quot;Category&quot;: &quot;Media Players&quot;,
+	&quot;CreatedBy&quot;: &quot;Epic Games, Inc.&quot;,
+	&quot;CreatedByURL&quot;: &quot;http://epicgames.com&quot;,
+	&quot;DocsURL&quot;: &quot;https://forums.unrealengine.com/showthread.php?46879-Media-Framework-Documentation-for-4-5-Preview&quot;,
+	&quot;MarketplaceURL&quot;: &quot;&quot;,
+	&quot;SupportURL&quot;: &quot;&quot;,
+	&quot;EnabledByDefault&quot;: true,
+	&quot;CanContainContent&quot;: false,
+	&quot;IsBetaVersion&quot;: false,
+	&quot;Installed&quot;: false,
+	&quot;Modules&quot;: [
+		{
+			&quot;Name&quot;: &quot;AvfMedia&quot;,
+			&quot;Type&quot;: &quot;RuntimeNoCommandlet&quot;,
+			&quot;LoadingPhase&quot;: &quot;PreLoadingScreen&quot;,
+			&quot;WhitelistPlatforms&quot;: [
+				&quot;IOS&quot;,
+				&quot;Mac&quot;
+			]
+		},
+		{
+			&quot;Name&quot;: &quot;AvfMediaEditor&quot;,
+			&quot;Type&quot;: &quot;Editor&quot;,
+			&quot;LoadingPhase&quot;: &quot;PostEngineInit&quot;
+		},
+		{
+			&quot;Name&quot;: &quot;AvfMediaFactory&quot;,
+			&quot;Type&quot;: &quot;Editor&quot;,
+			&quot;LoadingPhase&quot;: &quot;PostEngineInit&quot;
+		},
+		{
+			&quot;Name&quot;: &quot;AvfMediaFactory&quot;,
+			&quot;Type&quot;: &quot;RuntimeNoCommandlet&quot;,
+			&quot;LoadingPhase&quot;: &quot;PostEngineInit&quot;,
+			&quot;WhitelistPlatforms&quot;: [
+				&quot;IOS&quot;,
+				&quot;Mac&quot;,
+				&quot;Linux&quot;,
+				&quot;Win32&quot;,
+				&quot;Win64&quot;
+			]
+		}
+	]
+}</Plugin>
+<Plugin>{
+	&quot;FileVersion&quot;: 3,
+	&quot;Version&quot;: 1,
+	&quot;VersionName&quot;: &quot;1.0&quot;,
+	&quot;FriendlyName&quot;: &quot;Image Sequence Media Player&quot;,
+	&quot;Description&quot;: &quot;Implements a media player for image sequences in DPX, EXR, and other formats.&quot;,
+	&quot;Category&quot;: &quot;Media Players&quot;,
+	&quot;CreatedBy&quot;: &quot;Epic Games, Inc.&quot;,
+	&quot;CreatedByURL&quot;: &quot;http://epicgames.com&quot;,
+	&quot;DocsURL&quot;: &quot;https://forums.unrealengine.com/showthread.php?46879-Media-Framework-Documentation-for-4-5-Preview&quot;,
+	&quot;MarketplaceURL&quot;: &quot;&quot;,
+	&quot;SupportURL&quot;: &quot;&quot;,
+	&quot;EnabledByDefault&quot;: true,
+	&quot;CanContainContent&quot;: false,
+	&quot;IsBetaVersion&quot;: true,
+	&quot;Installed&quot;: false,
+	&quot;Modules&quot;: [
+		{
+			&quot;Name&quot;: &quot;ImgMedia&quot;,
+			&quot;Type&quot;: &quot;RuntimeNoCommandlet&quot;,
+			&quot;LoadingPhase&quot;: &quot;PreLoadingScreen&quot;
+		},
+		{
+			&quot;Name&quot;: &quot;ImgMediaEditor&quot;,
+			&quot;Type&quot;: &quot;Editor&quot;,
+			&quot;LoadingPhase&quot;: &quot;PostEngineInit&quot;
+		},
+		{
+			&quot;Name&quot;: &quot;ImgMediaFactory&quot;,
+			&quot;Type&quot;: &quot;Editor&quot;,
+			&quot;LoadingPhase&quot;: &quot;PostEngineInit&quot;
+		},
+		{
+			&quot;Name&quot;: &quot;ImgMediaFactory&quot;,
+			&quot;Type&quot;: &quot;RuntimeNoCommandlet&quot;,
+			&quot;LoadingPhase&quot;: &quot;PostEngineInit&quot;
+		},
+		{
+			&quot;Name&quot;: &quot;OpenExrWrapper&quot;,
+			&quot;Type&quot;: &quot;RuntimeNoCommandlet&quot;,
+			&quot;LoadingPhase&quot;: &quot;PostEngineInit&quot;,
+			&quot;WhitelistPlatforms&quot;: [
+				&quot;Mac&quot;,
+				&quot;Win32&quot;,
+				&quot;Win64&quot;
+			]
+		}
+	]
+}</Plugin>
+<Plugin>{
+	&quot;FileVersion&quot;: 3,
+	&quot;Version&quot;: 1,
+	&quot;VersionName&quot;: &quot;1.0&quot;,
+	&quot;FriendlyName&quot;: &quot;Media Compositing&quot;,
+	&quot;Description&quot;: &quot;Actors, components and Sequencer extensions for compositing media&quot;,
+	&quot;Category&quot;: &quot;Rendering&quot;,
+	&quot;CreatedBy&quot;: &quot;Epic Games, Inc.&quot;,
+	&quot;CreatedByURL&quot;: &quot;http://epicgames.com&quot;,
+	&quot;DocsURL&quot;: &quot;&quot;,
+	&quot;MarketplaceURL&quot;: &quot;&quot;,
+	&quot;SupportURL&quot;: &quot;&quot;,
+	&quot;EnabledByDefault&quot;: true,
+	&quot;CanContainContent&quot;: true,
+	&quot;IsBetaVersion&quot;: false,
+	&quot;Installed&quot;: false,
+	&quot;Modules&quot;: [
+		{
+			&quot;Name&quot;: &quot;MediaCompositing&quot;,
+			&quot;Type&quot;: &quot;Runtime&quot;,
+			&quot;LoadingPhase&quot;: &quot;Default&quot;
+		},
+		{
+			&quot;Name&quot;: &quot;MediaCompositingEditor&quot;,
+			&quot;Type&quot;: &quot;Editor&quot;,
+			&quot;LoadingPhase&quot;: &quot;Default&quot;
+		}
+	]
+}</Plugin>
+<Plugin>{
+	&quot;FileVersion&quot;: 3,
+	&quot;Version&quot;: 2,
+	&quot;VersionName&quot;: &quot;2.0&quot;,
+	&quot;FriendlyName&quot;: &quot;WMF Media Player&quot;,
+	&quot;Description&quot;: &quot;Implements a media player using the Windows Media Foundation framework.&quot;,
+	&quot;Category&quot;: &quot;Media Players&quot;,
+	&quot;CreatedBy&quot;: &quot;Epic Games, Inc.&quot;,
+	&quot;CreatedByURL&quot;: &quot;http://epicgames.com&quot;,
+	&quot;DocsURL&quot;: &quot;https://forums.unrealengine.com/showthread.php?46879-Media-Framework-Documentation-for-4-5-Preview&quot;,
+	&quot;MarketplaceURL&quot;: &quot;&quot;,
+	&quot;SupportURL&quot;: &quot;&quot;,
+	&quot;EnabledByDefault&quot;: true,
+	&quot;CanContainContent&quot;: false,
+	&quot;IsBetaVersion&quot;: false,
+	&quot;Installed&quot;: false,
+	&quot;Modules&quot;: [
+		{
+			&quot;Name&quot;: &quot;WmfMedia&quot;,
+			&quot;Type&quot;: &quot;RuntimeNoCommandlet&quot;,
+			&quot;LoadingPhase&quot;: &quot;PreLoadingScreen&quot;,
+			&quot;WhitelistPlatforms&quot;: [
+				&quot;Win32&quot;,
+				&quot;Win64&quot;
+			]
+		},
+		{
+			&quot;Name&quot;: &quot;WmfMediaEditor&quot;,
+			&quot;Type&quot;: &quot;Editor&quot;,
+			&quot;LoadingPhase&quot;: &quot;PostEngineInit&quot;
+		},
+		{
+			&quot;Name&quot;: &quot;WmfMediaFactory&quot;,
+			&quot;Type&quot;: &quot;Editor&quot;,
+			&quot;LoadingPhase&quot;: &quot;PostEngineInit&quot;
+		},
+		{
+			&quot;Name&quot;: &quot;WmfMediaFactory&quot;,
+			&quot;Type&quot;: &quot;RuntimeNoCommandlet&quot;,
+			&quot;LoadingPhase&quot;: &quot;PostEngineInit&quot;,
+			&quot;WhitelistPlatforms&quot;: [
+				&quot;Mac&quot;,
+				&quot;Linux&quot;,
+				&quot;Win32&quot;,
+				&quot;Win64&quot;
+			]
+		}
+	]
+}</Plugin>
+<Plugin>{
+	&quot;FileVersion&quot;: 3,
+	&quot;Version&quot;: 1,
+	&quot;VersionName&quot;: &quot;1.0&quot;,
+	&quot;FriendlyName&quot;: &quot;TCP Messaging&quot;,
+	&quot;Description&quot;: &quot;Adds a TCP connection based transport layer to the messaging sub-system for sending and receiving messages between networked computers and devices.&quot;,
+	&quot;Category&quot;: &quot;Messaging&quot;,
+	&quot;CreatedBy&quot;: &quot;Epic Games, Inc.&quot;,
+	&quot;CreatedByURL&quot;: &quot;http://epicgames.com&quot;,
+	&quot;DocsURL&quot;: &quot;&quot;,
+	&quot;MarketplaceURL&quot;: &quot;&quot;,
+	&quot;SupportURL&quot;: &quot;&quot;,
+	&quot;EnabledByDefault&quot;: true,
+	&quot;CanContainContent&quot;: false,
+	&quot;IsBetaVersion&quot;: false,
+	&quot;Installed&quot;: false,
+	&quot;Modules&quot;: [
+		{
+			&quot;Name&quot;: &quot;TcpMessaging&quot;,
+			&quot;Type&quot;: &quot;RuntimeAndProgram&quot;,
+			&quot;LoadingPhase&quot;: &quot;PreDefault&quot;,
+			&quot;BlacklistPlatforms&quot;: [
+				&quot;HTML5&quot;
+			]
+		}
+	]
+}</Plugin>
+<Plugin>{
+	&quot;FileVersion&quot;: 3,
+	&quot;Version&quot;: 1,
+	&quot;VersionName&quot;: &quot;1.0&quot;,
+	&quot;FriendlyName&quot;: &quot;UDP Messaging&quot;,
+	&quot;Description&quot;: &quot;Adds a UDP based transport and tunneling layer to the messaging sub-system for sending and receiving messages between networked computers and devices.&quot;,
+	&quot;Category&quot;: &quot;Messaging&quot;,
+	&quot;CreatedBy&quot;: &quot;Epic Games, Inc.&quot;,
+	&quot;CreatedByURL&quot;: &quot;http://epicgames.com&quot;,
+	&quot;DocsURL&quot;: &quot;&quot;,
+	&quot;MarketplaceURL&quot;: &quot;&quot;,
+	&quot;SupportURL&quot;: &quot;&quot;,
+	&quot;EnabledByDefault&quot;: true,
+	&quot;CanContainContent&quot;: false,
+	&quot;IsBetaVersion&quot;: false,
+	&quot;Installed&quot;: false,
+	&quot;Modules&quot;: [
+		{
+			&quot;Name&quot;: &quot;UdpMessaging&quot;,
+			&quot;Type&quot;: &quot;RuntimeAndProgram&quot;,
+			&quot;LoadingPhase&quot;: &quot;PreDefault&quot;,
+			&quot;BlacklistPlatforms&quot;: [
+				&quot;HTML5&quot;
+			]
+		}
+	]
+}</Plugin>
+<Plugin>{
+	&quot;FileVersion&quot;: 3,
+	&quot;Version&quot;: 1,
+	&quot;VersionName&quot;: &quot;0.1&quot;,
+	&quot;FriendlyName&quot;: &quot;Actor Sequence (Experimental)&quot;,
+	&quot;Description&quot;: &quot;Runtime for embedded actor sequences&quot;,
+	&quot;Category&quot;: &quot;Editor&quot;,
+	&quot;CreatedBy&quot;: &quot;Epic Games, Inc.&quot;,
+	&quot;CreatedByURL&quot;: &quot;http://epicgames.com&quot;,
+	&quot;DocsURL&quot;: &quot;&quot;,
+	&quot;MarketplaceURL&quot;: &quot;&quot;,
+	&quot;SupportURL&quot;: &quot;&quot;,
+	&quot;EnabledByDefault&quot;: true,
+	&quot;CanContainContent&quot;: false,
+	&quot;IsBetaVersion&quot;: true,
+	&quot;Installed&quot;: false,
+	&quot;Modules&quot;: [
+		{
+			&quot;Name&quot;: &quot;ActorSequence&quot;,
+			&quot;Type&quot;: &quot;Runtime&quot;,
+			&quot;LoadingPhase&quot;: &quot;Default&quot;
+		}
+	]
+}</Plugin>
+<Plugin>{
+	&quot;FileVersion&quot;: 3,
+	&quot;Version&quot;: 1,
+	&quot;VersionName&quot;: &quot;1.0&quot;,
+	&quot;FriendlyName&quot;: &quot;Online Subsystem&quot;,
+	&quot;Description&quot;: &quot;Shared code for interacting online subsystem implementations.&quot;,
+	&quot;Category&quot;: &quot;Online Platform&quot;,
+	&quot;CreatedBy&quot;: &quot;Epic Games, Inc.&quot;,
+	&quot;CreatedByURL&quot;: &quot;http://epicgames.com&quot;,
+	&quot;DocsURL&quot;: &quot;&quot;,
+	&quot;MarketplaceURL&quot;: &quot;&quot;,
+	&quot;SupportURL&quot;: &quot;&quot;,
+	&quot;EnabledByDefault&quot;: true,
+	&quot;CanContainContent&quot;: false,
+	&quot;IsBetaVersion&quot;: false,
+	&quot;Installed&quot;: false,
+	&quot;Modules&quot;: [
+		{
+			&quot;Name&quot;: &quot;OnlineSubsystem&quot;,
+			&quot;Type&quot;: &quot;Runtime&quot;,
+			&quot;LoadingPhase&quot;: &quot;PostConfigInit&quot;
+		}
+	],
+	&quot;LocalizationTargets&quot;: [
+		{
+			&quot;Name&quot;: &quot;OnlineSubsystem&quot;,
+			&quot;LoadingPolicy&quot;: &quot;Always&quot;
+		}
+	]
+}</Plugin>
+<Plugin>{
+	&quot;FileVersion&quot;: 3,
+	&quot;Version&quot;: 1,
+	&quot;VersionName&quot;: &quot;1.0&quot;,
+	&quot;FriendlyName&quot;: &quot;Online Subsystem NULL&quot;,
+	&quot;Description&quot;: &quot;Access to NULL platform&quot;,
+	&quot;Category&quot;: &quot;Online Platform&quot;,
+	&quot;CreatedBy&quot;: &quot;Epic Games, Inc.&quot;,
+	&quot;CreatedByURL&quot;: &quot;http://epicgames.com&quot;,
+	&quot;DocsURL&quot;: &quot;&quot;,
+	&quot;MarketplaceURL&quot;: &quot;&quot;,
+	&quot;SupportURL&quot;: &quot;&quot;,
+	&quot;EnabledByDefault&quot;: true,
+	&quot;CanContainContent&quot;: false,
+	&quot;IsBetaVersion&quot;: false,
+	&quot;Installed&quot;: false,
+	&quot;Modules&quot;: [
+		{
+			&quot;Name&quot;: &quot;OnlineSubsystemNull&quot;,
+			&quot;Type&quot;: &quot;Runtime&quot;,
+			&quot;LoadingPhase&quot;: &quot;Default&quot;
+		}
+	],
+	&quot;Plugins&quot;: [
+		{
+			&quot;Name&quot;: &quot;OnlineSubsystem&quot;,
+			&quot;Enabled&quot;: true
+		},
+		{
+			&quot;Name&quot;: &quot;OnlineSubsystemUtils&quot;,
+			&quot;Enabled&quot;: true
+		}
+	]
+}</Plugin>
+<Plugin>{
+	&quot;FileVersion&quot;: 3,
+	&quot;Version&quot;: 1,
+	&quot;VersionName&quot;: &quot;1.0&quot;,
+	&quot;FriendlyName&quot;: &quot;Online Subsystem Utils&quot;,
+	&quot;Description&quot;: &quot;Shared code for interacting online subsystem implementations.&quot;,
+	&quot;Category&quot;: &quot;Online Platform&quot;,
+	&quot;CreatedBy&quot;: &quot;Epic Games, Inc.&quot;,
+	&quot;CreatedByURL&quot;: &quot;http://epicgames.com&quot;,
+	&quot;DocsURL&quot;: &quot;&quot;,
+	&quot;MarketplaceURL&quot;: &quot;&quot;,
+	&quot;SupportURL&quot;: &quot;&quot;,
+	&quot;EnabledByDefault&quot;: true,
+	&quot;CanContainContent&quot;: false,
+	&quot;IsBetaVersion&quot;: false,
+	&quot;Installed&quot;: false,
+	&quot;Modules&quot;: [
+		{
+			&quot;Name&quot;: &quot;OnlineSubsystemUtils&quot;,
+			&quot;Type&quot;: &quot;Runtime&quot;,
+			&quot;LoadingPhase&quot;: &quot;PostConfigInit&quot;
+		},
+		{
+			&quot;Name&quot;: &quot;OnlineBlueprintSupport&quot;,
+			&quot;Type&quot;: &quot;Developer&quot;,
+			&quot;LoadingPhase&quot;: &quot;PostConfigInit&quot;
+		}
+	],
+	&quot;LocalizationTargets&quot;: [
+		{
+			&quot;Name&quot;: &quot;OnlineSubsystemUtils&quot;,
+			&quot;LoadingPolicy&quot;: &quot;Always&quot;
+		}
+	],
+	&quot;Plugins&quot;: [
+		{
+			&quot;Name&quot;: &quot;OnlineSubsystem&quot;,
+			&quot;Enabled&quot;: true
+		}
+	]
+}</Plugin>
+<Plugin>{
+	&quot;FileVersion&quot;: 3,
+	&quot;Version&quot;: 1,
+	&quot;VersionName&quot;: &quot;0.1&quot;,
+	&quot;FriendlyName&quot;: &quot;Android Runtime Permission&quot;,
+	&quot;Description&quot;: &quot;Support for Android Runtime Permission&quot;,
+	&quot;Category&quot;: &quot;Android&quot;,
+	&quot;CreatedBy&quot;: &quot;Google&quot;,
+	&quot;CreatedByURL&quot;: &quot;http://developers.google.com&quot;,
+	&quot;DocsURL&quot;: &quot;&quot;,
+	&quot;MarketplaceURL&quot;: &quot;&quot;,
+	&quot;SupportURL&quot;: &quot;&quot;,
+	&quot;EnabledByDefault&quot;: true,
+	&quot;CanContainContent&quot;: false,
+	&quot;IsBetaVersion&quot;: true,
+	&quot;Installed&quot;: false,
+	&quot;Modules&quot;: [
+		{
+			&quot;Name&quot;: &quot;AndroidPermission&quot;,
+			&quot;Type&quot;: &quot;Runtime&quot;,
+			&quot;LoadingPhase&quot;: &quot;Default&quot;
+		}
+	]
+}</Plugin>
+<Plugin>{
+	&quot;FileVersion&quot;: 3,
+	&quot;Version&quot;: 1,
+	&quot;VersionName&quot;: &quot;0.1&quot;,
+	&quot;FriendlyName&quot;: &quot;Apple ARKit&quot;,
+	&quot;Description&quot;: &quot;Support for Apple&apos;s ARKit augmented reality system&quot;,
+	&quot;Category&quot;: &quot;Augmented Reality&quot;,
+	&quot;CreatedBy&quot;: &quot;&quot;,
+	&quot;CreatedByURL&quot;: &quot;&quot;,
+	&quot;DocsURL&quot;: &quot;&quot;,
+	&quot;MarketplaceURL&quot;: &quot;&quot;,
+	&quot;SupportURL&quot;: &quot;&quot;,
+	&quot;EnabledByDefault&quot;: true,
+	&quot;CanContainContent&quot;: true,
+	&quot;IsBetaVersion&quot;: true,
+	&quot;Installed&quot;: false,
+	&quot;Modules&quot;: [
+		{
+			&quot;Name&quot;: &quot;AppleARKit&quot;,
+			&quot;Type&quot;: &quot;Runtime&quot;,
+			&quot;LoadingPhase&quot;: &quot;PostConfigInit&quot;,
+			&quot;WhitelistPlatforms&quot;: [
+				&quot;Mac&quot;,
+				&quot;IOS&quot;,
+				&quot;Win64&quot;
+			]
+		}
+	]
+}</Plugin>
+<Plugin>{
+	&quot;FileVersion&quot;: 3,
+	&quot;Version&quot;: 1,
+	&quot;VersionName&quot;: &quot;1.0&quot;,
+	&quot;FriendlyName&quot;: &quot;ArchVis Character&quot;,
+	&quot;Description&quot;: &quot;A controllable character tuned for architectural applications&quot;,
+	&quot;Category&quot;: &quot;Gameplay&quot;,
+	&quot;CreatedBy&quot;: &quot;Epic Games, Inc.&quot;,
+	&quot;CreatedByURL&quot;: &quot;http://epicgames.com&quot;,
+	&quot;DocsURL&quot;: &quot;&quot;,
+	&quot;MarketplaceURL&quot;: &quot;&quot;,
+	&quot;SupportURL&quot;: &quot;&quot;,
+	&quot;EnabledByDefault&quot;: true,
+	&quot;CanContainContent&quot;: false,
+	&quot;IsBetaVersion&quot;: false,
+	&quot;Installed&quot;: false,
+	&quot;Modules&quot;: [
+		{
+			&quot;Name&quot;: &quot;ArchVisCharacter&quot;,
+			&quot;Type&quot;: &quot;Runtime&quot;,
+			&quot;LoadingPhase&quot;: &quot;Default&quot;
+		}
+	]
+}</Plugin>
+<Plugin>{
+	&quot;FileVersion&quot;: 3,
+	&quot;Version&quot;: 1,
+	&quot;VersionName&quot;: &quot;1.0&quot;,
+	&quot;FriendlyName&quot;: &quot;Cable Component&quot;,
+	&quot;Description&quot;: &quot;A simulated cable component.&quot;,
+	&quot;Category&quot;: &quot;Rendering&quot;,
+	&quot;CreatedBy&quot;: &quot;Epic Games, Inc.&quot;,
+	&quot;CreatedByURL&quot;: &quot;http://epicgames.com&quot;,
+	&quot;DocsURL&quot;: &quot;&quot;,
+	&quot;MarketplaceURL&quot;: &quot;&quot;,
+	&quot;SupportURL&quot;: &quot;&quot;,
+	&quot;EnabledByDefault&quot;: true,
+	&quot;CanContainContent&quot;: false,
+	&quot;IsBetaVersion&quot;: false,
+	&quot;Installed&quot;: false,
+	&quot;Modules&quot;: [
+		{
+			&quot;Name&quot;: &quot;CableComponent&quot;,
+			&quot;Type&quot;: &quot;Runtime&quot;,
+			&quot;LoadingPhase&quot;: &quot;Default&quot;
+		}
+	]
+}</Plugin>
+<Plugin>{
+	&quot;FileVersion&quot;: 3,
+	&quot;Version&quot;: 1,
+	&quot;VersionName&quot;: &quot;1.0&quot;,
+	&quot;FriendlyName&quot;: &quot;Custom Mesh Component&quot;,
+	&quot;Description&quot;: &quot;A new renderable Component class that allows you to specify custom geometry via C++ or Blueprint.&quot;,
+	&quot;Category&quot;: &quot;Rendering&quot;,
+	&quot;CreatedBy&quot;: &quot;Epic Games, Inc.&quot;,
+	&quot;CreatedByURL&quot;: &quot;http://epicgames.com&quot;,
+	&quot;DocsURL&quot;: &quot;&quot;,
+	&quot;MarketplaceURL&quot;: &quot;&quot;,
+	&quot;SupportURL&quot;: &quot;&quot;,
+	&quot;EnabledByDefault&quot;: true,
+	&quot;CanContainContent&quot;: false,
+	&quot;IsBetaVersion&quot;: false,
+	&quot;Installed&quot;: false,
+	&quot;Modules&quot;: [
+		{
+			&quot;Name&quot;: &quot;CustomMeshComponent&quot;,
+			&quot;Type&quot;: &quot;Runtime&quot;,
+			&quot;LoadingPhase&quot;: &quot;Default&quot;,
+			&quot;BlacklistPlatforms&quot;: [
+				&quot;HTML5&quot;
+			]
+		}
+	]
+}</Plugin>
+<Plugin>{
+	&quot;FileVersion&quot;: 3,
+	&quot;Version&quot;: 1,
+	&quot;VersionName&quot;: &quot;1.0&quot;,
+	&quot;FriendlyName&quot;: &quot;Example Device Profile Selector&quot;,
+	&quot;Description&quot;: &quot;Example Device Profile Selector used show selection of device profiles on hardware&quot;,
+	&quot;Category&quot;: &quot;Device Profile Selectors&quot;,
+	&quot;CreatedBy&quot;: &quot;Epic Games, Inc.&quot;,
+	&quot;CreatedByURL&quot;: &quot;http://epicgames.com&quot;,
+	&quot;DocsURL&quot;: &quot;&quot;,
+	&quot;MarketplaceURL&quot;: &quot;&quot;,
+	&quot;SupportURL&quot;: &quot;&quot;,
+	&quot;EnabledByDefault&quot;: true,
+	&quot;CanContainContent&quot;: false,
+	&quot;IsBetaVersion&quot;: false,
+	&quot;Installed&quot;: false,
+	&quot;Modules&quot;: [
+		{
+			&quot;Name&quot;: &quot;ExampleDeviceProfileSelector&quot;,
+			&quot;Type&quot;: &quot;RuntimeNoCommandlet&quot;,
+			&quot;LoadingPhase&quot;: &quot;PostConfigInit&quot;
+		}
+	]
+}</Plugin>
+<Plugin>{
+	&quot;FileVersion&quot;: 3,
+	&quot;Version&quot;: 1,
+	&quot;VersionName&quot;: &quot;1.0&quot;,
+	&quot;FriendlyName&quot;: &quot;Immediate Mode Physics&quot;,
+	&quot;Description&quot;: &quot;Immediate Mode Physx Integration&quot;,
+	&quot;Category&quot;: &quot;Physics&quot;,
+	&quot;CreatedBy&quot;: &quot;Epic Games, Inc.&quot;,
+	&quot;CreatedByURL&quot;: &quot;http://epicgames.com&quot;,
+	&quot;DocsURL&quot;: &quot;&quot;,
+	&quot;MarketplaceURL&quot;: &quot;&quot;,
+	&quot;SupportURL&quot;: &quot;&quot;,
+	&quot;EnabledByDefault&quot;: true,
+	&quot;CanContainContent&quot;: false,
+	&quot;IsBetaVersion&quot;: false,
+	&quot;Installed&quot;: false,
+	&quot;Modules&quot;: [
+		{
+			&quot;Name&quot;: &quot;ImmediatePhysics&quot;,
+			&quot;Type&quot;: &quot;Runtime&quot;,
+			&quot;LoadingPhase&quot;: &quot;PreDefault&quot;
+		},
+		{
+			&quot;Name&quot;: &quot;ImmediatePhysicsEditor&quot;,
+			&quot;Type&quot;: &quot;Developer&quot;,
+			&quot;LoadingPhase&quot;: &quot;PreDefault&quot;
+		}
+	]
+}</Plugin>
+<Plugin>{
+	&quot;FileVersion&quot;: 3,
+	&quot;Version&quot;: 1,
+	&quot;VersionName&quot;: &quot;1.0&quot;,
+	&quot;FriendlyName&quot;: &quot;Mobile Location Services Blueprints Library&quot;,
+	&quot;Description&quot;: &quot;Common interface for blueprint access for location data from mobile devices&quot;,
+	&quot;Category&quot;: &quot;Blueprints&quot;,
+	&quot;CreatedBy&quot;: &quot;Epic Games, Inc.&quot;,
+	&quot;CreatedByURL&quot;: &quot;http://epicgames.com&quot;,
+	&quot;DocsURL&quot;: &quot;&quot;,
+	&quot;MarketplaceURL&quot;: &quot;&quot;,
+	&quot;SupportURL&quot;: &quot;&quot;,
+	&quot;EnabledByDefault&quot;: true,
+	&quot;CanContainContent&quot;: false,
+	&quot;IsBetaVersion&quot;: false,
+	&quot;Installed&quot;: false,
+	&quot;Modules&quot;: [
+		{
+			&quot;Name&quot;: &quot;LocationServicesBPLibrary&quot;,
+			&quot;Type&quot;: &quot;Runtime&quot;,
+			&quot;LoadingPhase&quot;: &quot;PreDefault&quot;
+		}
+	]
+}</Plugin>
+<Plugin>{
+	&quot;FileVersion&quot;: 3,
+	&quot;Version&quot;: 1,
+	&quot;VersionName&quot;: &quot;1.0&quot;,
+	&quot;FriendlyName&quot;: &quot;Mobile Patching Utilities&quot;,
+	&quot;Description&quot;: &quot;Blueprint exposed functionality for downloading and patching content on mobile platforms&quot;,
+	&quot;Category&quot;: &quot;Mobile&quot;,
+	&quot;CreatedBy&quot;: &quot;Epic Games, Inc.&quot;,
+	&quot;CreatedByURL&quot;: &quot;http://epicgames.com&quot;,
+	&quot;DocsURL&quot;: &quot;&quot;,
+	&quot;MarketplaceURL&quot;: &quot;&quot;,
+	&quot;SupportURL&quot;: &quot;&quot;,
+	&quot;EnabledByDefault&quot;: true,
+	&quot;CanContainContent&quot;: false,
+	&quot;IsBetaVersion&quot;: false,
+	&quot;Installed&quot;: false,
+	&quot;Modules&quot;: [
+		{
+			&quot;Name&quot;: &quot;MobilePatchingUtils&quot;,
+			&quot;Type&quot;: &quot;Runtime&quot;,
+			&quot;LoadingPhase&quot;: &quot;Default&quot;
+		}
+	]
+}</Plugin>
+<Plugin>{
+	&quot;FileVersion&quot;: 3,
+	&quot;Version&quot;: 1,
+	&quot;VersionName&quot;: &quot;1.0&quot;,
+	&quot;FriendlyName&quot;: &quot;OculusVR&quot;,
+	&quot;Description&quot;: &quot;Support for Oculus headsets and controllers&quot;,
+	&quot;Category&quot;: &quot;Virtual Reality&quot;,
+	&quot;CreatedBy&quot;: &quot;Epic Games, Inc.&quot;,
+	&quot;CreatedByURL&quot;: &quot;http://epicgames.com&quot;,
+	&quot;DocsURL&quot;: &quot;&quot;,
+	&quot;MarketplaceURL&quot;: &quot;&quot;,
+	&quot;SupportURL&quot;: &quot;&quot;,
+	&quot;EnabledByDefault&quot;: true,
+	&quot;CanContainContent&quot;: true,
+	&quot;IsBetaVersion&quot;: false,
+	&quot;Installed&quot;: false,
+	&quot;Modules&quot;: [
+		{
+			&quot;Name&quot;: &quot;OculusHMD&quot;,
+			&quot;Type&quot;: &quot;Runtime&quot;,
+			&quot;LoadingPhase&quot;: &quot;PostConfigInit&quot;,
+			&quot;WhitelistPlatforms&quot;: [
+				&quot;Win64&quot;,
+				&quot;Win32&quot;,
+				&quot;Android&quot;
+			]
+		},
+		{
+			&quot;Name&quot;: &quot;OculusInput&quot;,
+			&quot;Type&quot;: &quot;Runtime&quot;,
+			&quot;LoadingPhase&quot;: &quot;Default&quot;,
+			&quot;WhitelistPlatforms&quot;: [
+				&quot;Win64&quot;,
+				&quot;Win32&quot;,
+				&quot;Android&quot;
+			]
+		},
+		{
+			&quot;Name&quot;: &quot;OculusEditor&quot;,
+			&quot;Type&quot;: &quot;Editor&quot;,
+			&quot;LoadingPhase&quot;: &quot;PreDefault&quot;,
+			&quot;WhitelistPlatforms&quot;: [
+				&quot;Win64&quot;
+			]
+		}
+	]
+}</Plugin>
+<Plugin>{
+	&quot;FileVersion&quot;: 3,
+	&quot;Version&quot;: 1,
+	&quot;VersionName&quot;: &quot;1.0&quot;,
+	&quot;FriendlyName&quot;: &quot;Procedural Mesh Component&quot;,
+	&quot;Description&quot;: &quot;A renderable component and library of utilities for creating and modifying mesh geometry procedurally.&quot;,
+	&quot;Category&quot;: &quot;Rendering&quot;,
+	&quot;CreatedBy&quot;: &quot;Epic Games, Inc.&quot;,
+	&quot;CreatedByURL&quot;: &quot;http://epicgames.com&quot;,
+	&quot;DocsURL&quot;: &quot;&quot;,
+	&quot;MarketplaceURL&quot;: &quot;&quot;,
+	&quot;SupportURL&quot;: &quot;&quot;,
+	&quot;EnabledByDefault&quot;: true,
+	&quot;CanContainContent&quot;: false,
+	&quot;IsBetaVersion&quot;: false,
+	&quot;Installed&quot;: false,
+	&quot;Modules&quot;: [
+		{
+			&quot;Name&quot;: &quot;ProceduralMeshComponent&quot;,
+			&quot;Type&quot;: &quot;Runtime&quot;,
+			&quot;LoadingPhase&quot;: &quot;Default&quot;,
+			&quot;BlacklistPlatforms&quot;: [
+				&quot;HTML5&quot;
+			]
+		},
+		{
+			&quot;Name&quot;: &quot;ProceduralMeshComponentEditor&quot;,
+			&quot;Type&quot;: &quot;Editor&quot;,
+			&quot;LoadingPhase&quot;: &quot;Default&quot;
+		}
+	]
+}</Plugin>
+<Plugin>{
+	&quot;FileVersion&quot;: 3,
+	&quot;Version&quot;: 1,
+	&quot;VersionName&quot;: &quot;1.0&quot;,
+	&quot;FriendlyName&quot;: &quot;Runtime PhysX Cooking&quot;,
+	&quot;Description&quot;: &quot;Runtime cooking of physics data (convex hulls, heightfields, etc...)&quot;,
+	&quot;Category&quot;: &quot;Physics&quot;,
+	&quot;CreatedBy&quot;: &quot;Epic Games, Inc.&quot;,
+	&quot;CreatedByURL&quot;: &quot;http://epicgames.com&quot;,
+	&quot;DocsURL&quot;: &quot;&quot;,
+	&quot;MarketplaceURL&quot;: &quot;&quot;,
+	&quot;SupportURL&quot;: &quot;&quot;,
+	&quot;EnabledByDefault&quot;: true,
+	&quot;CanContainContent&quot;: false,
+	&quot;IsBetaVersion&quot;: false,
+	&quot;Installed&quot;: false,
+	&quot;Modules&quot;: [
+		{
+			&quot;Name&quot;: &quot;RuntimePhysXCooking&quot;,
+			&quot;Type&quot;: &quot;Runtime&quot;,
+			&quot;LoadingPhase&quot;: &quot;PreDefault&quot;
+		}
+	]
+}</Plugin>
+<Plugin>{
+	&quot;FileVersion&quot;: 3,
+	&quot;Version&quot;: 1,
+	&quot;VersionName&quot;: &quot;1.0&quot;,
+	&quot;FriendlyName&quot;: &quot;SteamVR&quot;,
+	&quot;Description&quot;: &quot;Support for the SteamVR API&quot;,
+	&quot;Category&quot;: &quot;Virtual Reality&quot;,
+	&quot;CreatedBy&quot;: &quot;Epic Games, Inc.&quot;,
+	&quot;CreatedByURL&quot;: &quot;http://epicgames.com&quot;,
+	&quot;DocsURL&quot;: &quot;&quot;,
+	&quot;MarketplaceURL&quot;: &quot;&quot;,
+	&quot;SupportURL&quot;: &quot;&quot;,
+	&quot;EnabledByDefault&quot;: true,
+	&quot;CanContainContent&quot;: true,
+	&quot;IsBetaVersion&quot;: false,
+	&quot;Installed&quot;: false,
+	&quot;Modules&quot;: [
+		{
+			&quot;Name&quot;: &quot;SteamVR&quot;,
+			&quot;Type&quot;: &quot;Runtime&quot;,
+			&quot;LoadingPhase&quot;: &quot;PostConfigInit&quot;,
+			&quot;WhitelistPlatforms&quot;: [
+				&quot;Win64&quot;,
+				&quot;Win32&quot;,
+				&quot;Linux&quot;,
+				&quot;Mac&quot;
+			]
+		},
+		{
+			&quot;Name&quot;: &quot;SteamVRController&quot;,
+			&quot;Type&quot;: &quot;Runtime&quot;,
+			&quot;LoadingPhase&quot;: &quot;Default&quot;,
+			&quot;WhitelistPlatforms&quot;: [
+				&quot;Win64&quot;,
+				&quot;Win32&quot;,
+				&quot;Linux&quot;,
+				&quot;Mac&quot;
+			]
+		}
+	],
+	&quot;Plugins&quot;: [
+		{
+			&quot;Name&quot;: &quot;ProceduralMeshComponent&quot;,
+			&quot;Enabled&quot;: true
+		}
+	]
+}</Plugin>
+<Plugin>{
+	&quot;FileVersion&quot;: 3,
+	&quot;Version&quot;: 1,
+	&quot;VersionName&quot;: &quot;1.0&quot;,
+	&quot;FriendlyName&quot;: &quot;Windows Movie Player&quot;,
+	&quot;Description&quot;: &quot;Windows Specific Movie Player using Media Foundation&quot;,
+	&quot;Category&quot;: &quot;Movie Players&quot;,
+	&quot;CreatedBy&quot;: &quot;Epic Games, Inc.&quot;,
+	&quot;CreatedByURL&quot;: &quot;http://epicgames.com&quot;,
+	&quot;DocsURL&quot;: &quot;&quot;,
+	&quot;MarketplaceURL&quot;: &quot;&quot;,
+	&quot;SupportURL&quot;: &quot;&quot;,
+	&quot;EnabledByDefault&quot;: true,
+	&quot;CanContainContent&quot;: false,
+	&quot;IsBetaVersion&quot;: false,
+	&quot;Installed&quot;: false,
+	&quot;Modules&quot;: [
+		{
+			&quot;Name&quot;: &quot;WindowsMoviePlayer&quot;,
+			&quot;Type&quot;: &quot;RuntimeNoCommandlet&quot;,
+			&quot;LoadingPhase&quot;: &quot;PreLoadingScreen&quot;,
+			&quot;WhitelistPlatforms&quot;: [
+				&quot;Win64&quot;,
+				&quot;Win32&quot;
+			]
+		}
+	]
+}</Plugin>
+</EnabledPlugins>
+</FGenericCrashContext>
